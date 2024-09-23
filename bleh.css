@@ -138,10 +138,14 @@ body {
 /* media querry */
 
 @media (max-width: 780px) {
+    .body{
+        overflow: hidden;
+    }
     .card {
         flex-direction: column;
         min-height: auto;
         width: 100%;
+    
         padding: 5px; 
     }
 
