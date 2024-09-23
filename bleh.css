@@ -142,7 +142,8 @@ body {
         flex-direction: column;
         min-height: auto;
         width: 100%;
-        padding: 5px; 
+        padding: 10px; 
+        
     }
 
     .left, .right {
@@ -156,22 +157,28 @@ body {
 
     .logo-img, .QR-img {
         width: 150px; 
-        margin-bottom: 10px; 
+        margin: px;
     }
 
+    .QR-img {
+        margin-top: -30px;
+    }
     .title h2 {
-        font-size: 28px; 
+        font-size: 22px; 
         text-align: center; 
         margin-bottom: 10px;
+        margin-top: -40px;
     }
 
     .title p {
         font-size: 20px; 
         text-align: center;
     }
-
+    .info{
+        margin-top: -25px;
+    }
     .info p {
-        font-size: 18px;
+        font-size: 14px;
         text-align: center; 
         margin: 5px 0; 
     }
