@@ -142,8 +142,7 @@ body {
         flex-direction: column;
         min-height: auto;
         width: 100%;
-        padding: 10px; 
-        
+        padding: 5px; 
     }
 
     .left, .right {
