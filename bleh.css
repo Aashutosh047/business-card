@@ -145,8 +145,8 @@ body {
         flex-direction: column;
         min-height: auto;
         width: 100%;
-    
-        padding: 5px; 
+        padding: 10px; 
+        margin: 0;
     }
 
     .left, .right {
@@ -207,9 +207,10 @@ body {
         display: flex;
         justify-content: center; 
         align-items: center;
-        margin-top: 20px; 
+        margin-top: 30px; 
         position: absolute;
         right: 50%;
+        bottom: 5%;
     }
 
     .next-but {
