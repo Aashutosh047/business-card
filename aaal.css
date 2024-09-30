@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 90dvw;
+    height: 90dvh;
+    padding: 20px;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.a {
+    margin-top: 15px;
+}
+.b {
+    margin-top: 15px;
+}
+.c {
+    margin-top: 15px;
+}
+.d {
+    margin-top: 15px;
+}
+.a p{
+    margin: 0;
+}
+.b p{
+    margin: 0;
+}
+.c p{
+    margin: 0;
+}
+.d p{
+    margin: 0;
+}
+.namee {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1A3559;
+    
+}
+
+.post {
+    font-size: 15px;
+    color: #666666;
+    
+}
+
+.QR-img {
+    width: 200px;
+    height: auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: right;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.logo-img {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    font-size: 18px;
+    color: #1A3559;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.info i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #1A3559;
+}
+
+.info a {
+    text-decoration: none;
+    color: #1A3559;
+    display: flex;
+    align-items: center;
+}
+
+.info .social i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #1A3559;
+}
+
+.info .social {
+    margin-top: 10px;
+}
+
+.factory {
+    font-size: 16px;
+}
