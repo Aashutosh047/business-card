@@ -7,7 +7,12 @@ body{
     width: 100vw;
     margin: 0;
     overflow: hidden;
+    transition: transform 0.5s ease;
 }
+
+.slide-out {
+    transform: translateX(+100%);
+  }
 
 .logo{
     max-width: 50%;
